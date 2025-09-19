@@ -6,8 +6,8 @@ Procasti-Not
 
 # Features
 
-- Add tasks with custom deadlines  
-- View and manage your task list  
+- Add tasks with custom deadlines and priority levels 
+- View & edit your task list  
 - Delete completed tasks  
     
 
@@ -28,10 +28,14 @@ Procasti-Not
 
 # Future Improvements
 
-- Priority levels (High, Medium, Low)  
-- Enable task editing  
 - Integrate calendar view or reminders  
 - Add login and sync features
+- Multi-user support
+- Smart Reminders
+- Custom themes
+- Task Analytics
+
+
 
 * Reviews are highly appriciated
   
