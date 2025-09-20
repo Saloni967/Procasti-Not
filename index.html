@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Procasti-not</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <h1>Procasti-not</h1>
+    </header>
+
+    <form id="task-form">
+      <input type="text" id="task-heading" placeholder="Task heading" required />
+      <textarea id="task-desc" placeholder="Task description" required></textarea>
+      <input type="date" id="deadline-input" required />
+      <select id="priority-input">
+        <option value="High">High</option>
+        <option value="Medium" selected>Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+  </div>
+
+  <div id="task-list-wrapper">
+    <div id="task-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
